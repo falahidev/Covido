@@ -336,6 +336,7 @@ body {
 
 }
 
+
 .cards .card {
     width: 420px;
     text-align: center;
@@ -345,6 +346,7 @@ body {
     transition: .3s;
     cursor: pointer;
     padding: 30px 80px;
+    transition: all;
 }
 
 .cards .card:hover {
@@ -396,6 +398,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 .indicators .indicator {

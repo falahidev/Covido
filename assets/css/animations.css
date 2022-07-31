@@ -28,3 +28,25 @@
         fill: #fff;
     }
 }
+
+@keyframes hideSlideButton {
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+
+@keyframes showSlideButton {
+    100% {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@keyframes slideInFromRight {
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
