@@ -1,0 +1,30 @@
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes backgroundAnimation {
+    0% {background-position:0% 50%}
+    50% {background-position:100% 50%}
+    100% {background-position:0% 50%}
+}
+
+@keyframes mapAnimation {
+    to {
+        width: 111%;
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes mapAnimationMobile {
+    to {
+        width: 90%;
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes mapAllPathAnimation {
+    to {
+        fill: #fff;
+    }
+}
