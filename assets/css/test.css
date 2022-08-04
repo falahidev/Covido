@@ -23,7 +23,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
-    background: #FEFEFE;
+    background: #E6E6E6;
 }
 
 .main-header {
@@ -295,6 +295,48 @@ body {
     font-size: 20px;
 }
 
+.main-content {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.main-content .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 30px 8px;
+    text-align: center;
+}
+
+.container img {
+    width: 260px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    color: var(--primary-color);
+    font-size: 22px;
+    margin: 25px 0px;
+}
+
+.container p {
+    line-height: 1.6;
+    font-weight: 300;
+    -webkit-text-stroke: 0.3px;
+}
+
+.container a {
+    background: var(--primary-color);
+    width: 240px;
+    margin: 25px auto;
+    padding: 10px 0px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 4px;
+}
 
 @media only screen and (max-width: 1000px) {
 
