@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>کویدو | سلامتی و اطلاع رسانی</title>
+    <link href="assets/css/style-status.css" rel="stylesheet"/>
+    <script async src="assets/js/nprogress.js"></script>
+</head>
+<body>
+
+<script>
+    NProgress.start();
+</script>
+
+<header class="main-header">
+    <div class="navbar">
+        <div class="item">
+            <a href="#back">
+                <i class="icon-arrow"></i>
+            </a>
+        </div>
+        <div class="item">
+            <h1>
+                آمار  و گزارشات
+            </h1>
+        </div>
+        <div class="item">
+            <a href="javascript:openModal()">
+                <div class="change">
+                    <i class="icon-location"></i>
+                    موقعیت: <span> ایران</span>
+                </div>
+                <div class="flag-container">
+                    <div class="flag"></div>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="map-container">
+        <img class="map" src="/assets/image/Map.svg" loading="lazy"/>
+    </div>
+</header>
+
+<main>
+    <section class="container">
+        <div class="header">
+            <h6>جزئیات</h6>
+        </div>
+        <div class="content">
+            <div class="item">
+                <h3>777,444,555</h3>
+                <span>کل مبتلایان</span>
+            </div>
+            <div class="item">
+                <h3>777,444,555</h3>
+                <span class="green">بهبود یافتگان</span>
+            </div>
+            <div class="item">
+                <h3>777,444,555</h3>
+                <span>مرگ و میر</span>
+            </div>
+        </div>
+        
+    </section>
+    <div class="float-container">
+        <div class="content">
+            <div class="item">
+                <h3>777,444,555</h3>
+                <span>موردهای های فعال</span>
+            </div>
+            <div class="line"></div>
+            <div class="item">
+                <h3>777,444,555</h3>
+                <span>مورد های بسته</span>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="modal">
+    <div class="modal-box">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h1>انتخاب موقعیت</h1>
+        </div>
+        <div class="modal-content">
+            <form>
+                <div class="custom-select">
+                    <select>
+                      <option value="0">کشور مورد نظر:</option>
+                      <option value="1">جهان</option>
+                      <option value="2">جمهوری اسلامی ایران</option>
+                    </select>
+                  </div>
+                  <button type="submit">ثبت و ادامه</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    NProgress.done();
+</script>
+
+<script async src="/assets/js/status.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1000px) {
+
+    .main-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-header .top-nav {
+        width: 100%;
+        margin: 12px 20px;
+        border-radius: 12px;
+        height: 76px !important;
+        padding: 0 8px !important;
+    }
+
+    .main-header .top-nav > .nav {
+        display: none;
+    }
+
+    .main-header .top-nav .buttons .button {
+        display: none;
+    }
+
+}
