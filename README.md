@@ -1,1 +1,1 @@
-![Covido](https://github.com/falahidev/Covido/blob/main/assets/covido/Covido.png?raw=true)
+![Covido](https://covido.info/image/github.png)
