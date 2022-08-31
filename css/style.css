@@ -1,0 +1,95 @@
+@import url('./fonts.css');
+@import url('./colors.css');
+@import url('./animations.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'IRANYekan';
+    direction: rtl;
+    height: 100vh;
+    overflow-x: hidden;
+    background: #FEFEFE;
+}
+
+.splash-screen {
+    height: 100vh;
+    width: 100vw;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeOut .8s forwards;
+    animation-delay: 3.5s;
+    z-index: 10000;
+}
+
+.splash-screen > img {
+    width: 130px;
+}
+
+.splash-screen > p {
+    color: var(--primary-color);
+    background: #fff;
+    margin-top: 80px;
+    padding: 6px 30px;
+    font-size: 12px;
+    border-radius: 60px;
+}
+
+.main-header {
+    width: 100vw;
+}
+
+.main-header .top-nav {
+    width: 100%;
+    height: 90px;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.main-header .top-nav .nav {
+    width: 100%;
+    padding: 0 100px;
+    line-height: 90px;
+}
+
+.main-header .top-nav .nav li {
+    display: inline;
+}
+
+.main-header .top-nav .nav li a {
+    font-weight: 300;
+    color: #1d1d1d;
+    transition: 0.2s;
+}
+
+.main-header .top-nav .nav .logo > a {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 850;
+}
+
+.main-header .top-nav .nav .nav-button {
+    display: none;
+}
+
+.main-header .top-nav .nav .button {
+    float: left;
+}
+
+.main-header .top-nav .nav .button a {
+    background: var(--secondory-color);
+    text-align: center;
+    padding: 8px 30px;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    color: #fff;
+}
