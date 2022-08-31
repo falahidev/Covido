@@ -34,4 +34,6 @@
 
 ## 🤖 ربات تلگرامی
 
+![Covido Robot](https://covido.info/image/robot.png)
+
 </div>
