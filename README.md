@@ -1,4 +1,7 @@
+<div style="text-align: center;">
 ![Covido](https://covido.info/image/github.png)
+**سامانه اطلاع رسانی و سلامتی کویدو**
+</div>
 <div dir="rtl">
 
 ## 🚀 سامانه کویدو
