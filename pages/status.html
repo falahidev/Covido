@@ -26,10 +26,16 @@
         NProgress.start();
     </script>
 
+    <div class="loading-container">
+        <div class="box">
+            <div class="loading"></div>
+        </div>
+    </div>
+
     <header class="main-header">
         <div class="navbar">
             <div class="item">
-                <a href="#back">
+                <a id="backBtn" href="javascript:history.back()">
                     <i class="icon-arrow"></i>
                 </a>
             </div>
@@ -42,10 +48,12 @@
                 <a href="javascript:openModal()">
                     <div class="change">
                         <i class="icon-location"></i>
-                        موقعیت: <span> ایران</span>
+                        موقعیت:<span id="location-name">جهان</span>
                     </div>
                     <div class="flag-container">
-                        <div class="flag"></div>
+                        <div class="flag"
+                            style="background: url(&quot;https://covido.info/image/flags/world.svg&quot;) 0% 0% / cover;">
+                        </div>
                     </div>
                 </a>
 
@@ -63,15 +71,15 @@
             </div>
             <div class="content">
                 <div class="item">
-                    <h3>777,444,555</h3>
+                    <h3 id="cases"></h3>
                     <span>کل مبتلایان</span>
                 </div>
                 <div class="item">
-                    <h3>777,444,555</h3>
+                    <h3 id="recovered"></h3>
                     <span class="green">بهبود یافتگان</span>
                 </div>
                 <div class="item">
-                    <h3>777,444,555</h3>
+                    <h3 id="deaths"></h3>
                     <span>مرگ و میر</span>
                 </div>
             </div>
@@ -80,35 +88,33 @@
         <div class="float-container">
             <div class="content">
                 <div class="item">
-                    <h3>777,444,555</h3>
-                    <span>موردهای های فعال</span>
+                    <h3 id="new_cases">418,961</h3>
+                    <span>مبتلایان جدید</span>
                 </div>
                 <div class="line"></div>
                 <div class="item">
-                    <h3>777,444,555</h3>
-                    <span>مورد های بسته</span>
+                    <h3 id="new_deaths">955</h3>
+                    <span>مرگ و میر جدید</span>
                 </div>
             </div>
         </div>
     </main>
 
-    <div class="modal">
+    <div class="modal" style="position: fixed; top: 0; right: 0;">
         <div class="modal-box">
             <div class="modal-header">
-                <span class="close">&times;</span>
+                <span id="close" class="close">×</span>
                 <h1>انتخاب موقعیت</h1>
             </div>
             <div class="modal-content">
-                <form>
-                    <div class="custom-select">
-                        <select>
-                            <option value="0">کشور مورد نظر:</option>
-                            <option value="1">جهان</option>
-                            <option value="2">جمهوری اسلامی ایران</option>
-                        </select>
-                    </div>
-                    <button type="submit">ثبت و ادامه</button>
-                </form>
+                <div class="custom-select">
+                    <select name="country" class="country-select">
+                        <option value="0">کشور مورد نظر:</option>
+                        <option value="worldwide">جهان</option>
+                        <option value="iran">جمهوری اسلامی ایران</option>
+                    </select>
+                </div>
+                <button class="btn-country">ثبت و ادامه</button>
             </div>
         </div>
     </div>
@@ -119,6 +125,7 @@
     <!-- End Config Jquery & Pjax -->
 
     <script src="../js/components/status.js" async></script>
+    <script src="../js/components/snackbar.js" async></script>
 
     <script>
         NProgress.done();
