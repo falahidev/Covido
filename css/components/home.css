@@ -98,7 +98,7 @@
     width: 90px;
 }
 
-.home-container .container .cards-container .card div h3 {
+.home-container .container .cards-container .card div h3 a {
     margin-top: 8px;
     color: #5E5E5E;
     font-weight: 400;

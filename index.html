@@ -20,9 +20,10 @@
     <link rel="stylesheet" href="css/nprogress.css">
     <link rel="stylesheet" href="css/components/home.css">
     <link rel="stylesheet" href="css/components/header.css">
+    <script src="js/nprogress.js"></script>
 </head>
 
-<body>
+<body id="pjax-container">
 
     <script>
         NProgress.start();
@@ -102,33 +103,41 @@
                         <p>این سویه چه ویژگی هایی دارد؟</p>
                     </div>
 
-                    <span><a href="/">مطالعه</a></span>
+                    <span><a data-pjax href="/">مطالعه</a></span>
                 </div>
                 <div class="row cards-container">
                     <div class="card">
                         <div>
                             <img src="assets/image/cards/virus.svg" />
-                            <h3>خانواده کرونا ویروس ها</h3>
+                            <h3>
+                                <a data-pjax href="/pages/corona.html">خانواده کرونا ویروس ها</a>
+                            </h3>
                         </div>
                     </div>
                     <div class="cards">
                         <div class="card" style="margin-left: 4px;">
                             <div>
                                 <img src="assets/image/cards/articles.svg" />
-                                <h3>مقالات</h3>
+                                <h3>
+                                    <a data-pjax href="/pages/article.html">مقالات</a>
+                                </h3>
                             </div>
                         </div>
                         <div class="card" style="margin-right: 4px;">
                             <div>
                                 <img src="assets/image/cards/test.svg" />
-                                <h3>تست </h3>
+                                <h3>
+                                    <a data-pjax href="/pages/test.html">تست</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div>
                             <img src="assets/image/cards/chart.svg" />
-                            <h3>گزارشات و آمار</h3>
+                            <h3>
+                                <a data-pjax href="/pages/status.html">گزارشات</a>
+                            </h3>
                         </div>
                     </div>
                 </div>
@@ -137,13 +146,16 @@
     </main>
 
     <!-- Config Jquery & Pjax -->
-    <script src="js/jquery.min.js" async></script>
-    <script src="js/jquery.pjax.js" async></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.pjax.js"></script>
     <!-- End Config Jquery & Pjax -->
 
     <script src="js/app.js" async></script>
-    <script src="js/nprogress.js" async></script>
     <script src="js/components/header.js" async></script>
+
+    <script>
+        NProgress.done();
+    </script>
 </body>
 
 </html>
