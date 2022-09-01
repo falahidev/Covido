@@ -117,7 +117,7 @@
     width: 30%;
     height: 100vh;
     background-color: #0000003f;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100%;
     z-index: 9999;
