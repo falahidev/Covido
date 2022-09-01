@@ -49,7 +49,7 @@
 
 <div style="text-align: center;">
 
-![Start bot](https://covido.info/image/github/Start-gif.gif)
+<img src="https://covido.info/image/github/Start-gif.gif" align="center"/>
 
 </div>
 
