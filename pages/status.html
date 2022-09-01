@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#66BB6A">
     <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/x-icon" href="https://covido.info/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>گزارشات | کویدو - سامانه آگاه سازی و سلامتی</title>
     <meta name="keywords" content="کویدو, کرونا, کروناویروس, سامانه, اطلاع رسانی">
@@ -16,11 +16,8 @@
     <meta property="og:description"
         content="سامانه اطلاع رسانی و آگاه سازی در زمینه کروناویروس ها و سایر همه گیری ها و بیماری ها">
     <meta property="og:image" content="https://covido.info/covido.png">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/nprogress.css">
-    <link rel="stylesheet" href="css/components/home.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <script src="js/nprogress.js"></script>
+    <script src="../js/nprogress.js"></script>
+    <link rel="stylesheet" href="../css/components/status.css">
 </head>
 
 <body>
@@ -55,7 +52,7 @@
             </div>
         </div>
         <div class="map-container">
-            <img class="map" src="/assets/image/Map.svg" loading="lazy" />
+            <img class="map" src="../assets/image/Map.svg" loading="lazy" />
         </div>
     </header>
 
@@ -116,11 +113,16 @@
         </div>
     </div>
 
+    <!-- Config Jquery & Pjax -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.pjax.js"></script>
+    <!-- End Config Jquery & Pjax -->
+
+    <script src="../js/components/status.js" async></script>
+
     <script>
         NProgress.done();
     </script>
-
-    <script async src="/assets/js/status.js"></script>
 
 </body>
 

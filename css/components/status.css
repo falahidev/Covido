@@ -1,7 +1,7 @@
-@import url('./fonts.css');
-@import url('./colors.css');
-@import url('./nprogress.css');
-@import url('./animations.css');
+@import url('../fonts.css');
+@import url('../colors.css');
+@import url('../nprogress.css');
+@import url('../animations.css');
 
 
 * {
@@ -97,6 +97,7 @@ body {
 .main-header .navbar .item:nth-child(2) h1 {
     font-size: 25px;
     color: #fff;
+    font-weight: 500;
 }
 
 .main-header .navbar .item:nth-child(3) {
@@ -144,20 +145,20 @@ body {
 .main-header .navbar .item:nth-child(3) a .flag-container .flag {
     width: 30px;
     height: 30px;
-    background: url(../image/flags/iran.svg);
+    background: url(../../assets/image/flags/iran.svg);
     background-size: cover;
 }
 
 
 .modal {
-    height: 100% !important;
+    height: 100%;
     width: 100%;
     display: none;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.459);
     z-index: 100000;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
 }

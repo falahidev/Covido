@@ -3,13 +3,10 @@ const modalBox = document.querySelector('.modal');
 const imgMap = document.querySelector('.map');
 
 openModal = () => {
-    document.body.style.overflowY = 'hidden';
     modalBox.style.display = 'flex';
 }
 
 closeButton.addEventListener('click', () => {
-
-    document.body.style.overflowY = 'scroll';
     modalBox.style.display = 'none';
 
 });
@@ -17,7 +14,6 @@ closeButton.addEventListener('click', () => {
 window.addEventListener('click', (event) => {
 
     if (event.target == modalBox) {
-        document.body.style.overflowY = 'scroll';
         modalBox.style.display = 'none';
     }
 
