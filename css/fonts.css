@@ -16,102 +16,111 @@ This set of fonts are used in this project under the license: (.....)
 --------------------------------------------------------------------------------------
 *	
 **/
+
+/**
+
+------------------------------------
+لطفا لایسنس فونت رو بگیرید با عشق، کویدو
+------------------------------------
+
+**/
+
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: bold;
-	src: url('../fonts/eot/iranyekanwebbold.eot');
-	src: url('../fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanwebbold.eot');
+	src: url('../assets/fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanwebbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanwebbold.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: 100;
-	src: url('../fonts/eot/iranyekanwebthin.eot');
-	src: url('../fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebthin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebthin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebthin.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanwebthin.eot');
+	src: url('../assets/fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanwebthin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanwebthin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanwebthin.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: 300;
-	src: url('../fonts/eot/iranyekanweblight.eot');
-	src: url('../fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanweblight.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanweblight.eot');
+	src: url('../assets/fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanweblight.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/eot/iranyekanwebregular.eot');
-	src: url('../fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanwebregular.eot');
+	src: url('../assets/fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanwebregular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: 500;
-	src: url('../fonts/eot/iranyekanwebmedium.eot');
-	src: url('../fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebmedium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebmedium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanwebmedium.eot');
+	src: url('../assets/fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanwebmedium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanwebmedium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: 800;
-	src: url('../fonts/eot/iranyekanwebextrabold.eot');
-	src: url('../fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebextrabold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanwebextrabold.eot');
+	src: url('../assets/fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanwebextrabold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: 850;
-	src: url('../fonts/eot/iranyekanwebblack.eot');
-	src: url('../fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebblack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebblack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebblack.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanwebblack.eot');
+	src: url('../assets/fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanwebblack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanwebblack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanwebblack.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: IRANYekan;
 	font-style: normal;
 	font-weight: 900;
-	src: url('../fonts/eot/iranyekanwebextrablack.eot');
-	src: url('../fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebextrablack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebextrablack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+	src: url('../assets/fonts/eot/iranyekanwebextrablack.eot');
+	src: url('../assets/fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../assets/fonts/woff/iranyekanwebextrablack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../assets/fonts/woff2/iranyekanwebextrablack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../assets/fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
 }
 
 
 @font-face {
 	font-family: 'Covido';
-	src: url('../fonts/Covido/covido.eot?utwf6r');
-	src: url('../fonts/Covido/covido.eot?utwf6r#iefix') format('embedded-opentype'),
-	url('../fonts/Covido/covido.ttf?utwf6r') format('truetype'),
-	url('../fonts/Covido/covido.woff?utwf6r') format('woff'),
-	url('../fonts/Covido/covido.svg?utwf6r#covido') format('svg');
+	src: url('../assets/fonts/Covido/covido.eot?utwf6r');
+	src: url('../assets/fonts/Covido/covido.eot?utwf6r#iefix') format('embedded-opentype'),
+	url('../assets/fonts/Covido/covido.ttf?utwf6r') format('truetype'),
+	url('../assets/fonts/Covido/covido.woff?utwf6r') format('woff'),
+	url('../assets/fonts/Covido/covido.svg?utwf6r#covido') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
