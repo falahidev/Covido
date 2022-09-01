@@ -1,0 +1,276 @@
+.corona-container {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 100px;
+}
+
+.corona-container .container .title-bar {
+    width: 100%;
+}
+
+.corona-container .container .title-bar span {
+    float: left;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corona-container .container .title-bar span::after {
+    font-family: 'Covido';
+    content: '\e903';
+    margin-right: 4px;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.corona-container .container .title-bar span a {
+    color: var(--primary-color);
+}
+
+.corona-container .container .title-bar h2 {
+    float: right;
+    font-size: 17px;
+}
+
+.corona-container .container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0;
+    padding: 15px;
+}
+
+.corona-container .container .content .cards {
+
+}
+
+
+.cards .card {
+    width: 420px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 100px rgba(75, 93, 79, 0.08);
+    border-radius: 15px;
+    transition: .3s;
+    cursor: pointer;
+    padding: 30px 80px;
+    transition: all;
+}
+
+.cards .card:hover {
+    box-shadow: 0 2px 100px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    margin: 4px;
+    font-weight: 300;
+}
+
+.card h3 {
+    color: var(--primary-color);
+}
+
+.card .virus-picture {
+    padding: 15px;
+    margin: 30px 10px;
+}
+
+.card .virus-picture img {
+    width: 80%;
+}
+
+.card .information {
+    margin: 30px 0px;
+}
+
+.information h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.information p {
+    padding: 15px;
+    font-weight: 300;
+}
+
+.corona-container .container .content .cards .card a {
+    color: #fff;
+    background: var(--primary-color);
+    padding: 5px 30px;
+    border-radius: 4px;
+    font-weight: 300;
+}
+
+.corona-container .container .content .indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.indicators .indicator {
+    width: 10px;
+    height: 10px;
+    background: #BBFFBE;
+    border-radius: 50%;
+    margin: 5px;
+    transition: .3s;
+}
+
+.indicators .active {
+    background: var(--primary-color);
+}
+
+.corona-container .container .content .slider-btn {
+    position: relative;
+    top: -280px;
+    width: 450px;
+}
+
+.slider-btn .btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BBFFBE;
+    border-radius: 50%;
+    font-size: 18px;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.slider-btn .btn:hover {
+    box-shadow: 0 0 8px rgba(0,0,0, 0.1);
+}
+
+.slider-btn .btn:nth-child(1) {
+    float: right;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.slider-btn .btn:nth-child(2) {
+    float: left;
+}
+
+@media only screen and (max-width: 900px) {
+    .corona-container .container .content .cards {
+        margin: 15px 0px;
+    }
+
+    .cards .card {
+        width: 300px;
+        padding: 20px 30px;
+    }
+
+    .information h1 {
+        font-size: 19px;
+    }
+
+    .information p {
+        font-size: 13px;
+    }
+
+    .corona-container .container .content .slider-btn {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .main-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-header .top-nav {
+        width: 100%;
+        margin: 12px 20px;
+        border-radius: 12px;
+        height: 76px !important;
+        padding: 0 8px !important;
+    }
+
+    .main-header .top-nav > .nav {
+        display: none;
+    }
+
+    .main-header .top-nav .buttons .button {
+        display: none;
+    }
+
+    .main-header .top-nav .logo {
+        flex: 60%;
+    }
+
+    .main-header .top-nav .hamburger-menu {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex: 20%;
+    }
+
+    .main-header .top-nav .hamburger-menu label {
+        padding: 8px 30px;
+    }
+
+    .main-header .top-nav .hamburger-menu label > svg {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+        margin-left: 18px;
+    }
+
+    .main-header .top-nav .buttons {
+        flex: 20%;
+    }
+
+    .info-container {
+        padding: 20px 0px;
+    }
+
+    .post-content {
+        padding: 0;
+    }
+
+    .footer .author-container {
+        margin: 0;
+    }
+
+    .corona-container {
+        padding: 10px 30px;
+    }
+
+    .corona-container .container .top-article {
+        padding: 15px 0px;
+    }
+
+    .top-article .container, .top-article .container .content {
+        height: 250px;
+    }
+
+    .corona-container .container .content .cards {
+        margin: 20px 0px;
+    }
+
+    .cards .card {
+        width: 300px;
+    }
+
+    .information h1 {
+        font-size: 19px;
+    }
+
+    .information p {
+        font-size: 14px;
+    }
+}

@@ -1,20 +1,16 @@
 var cardIndex = 0;
-
-const cards = document.querySelectorAll('.card');
-const indicators = document.querySelectorAll('.indicator');
-const prevButton = document.querySelector('.prev-btn');
-const nextButton = document.querySelector('.next-btn');
-
-
-prevButton.addEventListener('click', () => {
+var cards = document.querySelectorAll('.card');
+var indicators = document.querySelectorAll('.indicator');
+var prevButton = document.querySelector('.prev-btn');
+var nextButton = document.querySelector('.next-btn');
+prevButton.addEventListener('click', function () {
     prevCard();
 });
-
-nextButton.addEventListener('click', () => {
+nextButton.addEventListener('click', function () {
     nextCard();
 });
 
-prevCard = () => {
+prevCard = function prevCard() {
     cardIndex = getVisibleCard();
     cardIndex--;
 
@@ -26,17 +22,15 @@ prevCard = () => {
         }
     }
 
-    cards[getVisibleCard()].style.transform = 'translateX(-30%)';
     cards[getVisibleCard()].style.visibility = 'hidden';
     cards[getVisibleCard()].style.display = 'none';
-    cards[cardIndex].style.animation = '.8s slideInFromRight forwards';
+    cards[cardIndex].style.animation = '.8s fadeSlider forwards';
     cards[cardIndex].style.visibility = "visible";
     cards[cardIndex].style.display = "block";
-
     updateIndicators();
 };
 
-nextCard = () => {
+nextCard = function nextCard() {
     cardIndex = getVisibleCard();
     cardIndex++;
 
@@ -52,18 +46,17 @@ nextCard = () => {
         }
     }
 
-    cards[getVisibleCard()].style.transform = 'translateX(-30%)';
     cards[getVisibleCard()].style.visibility = 'hidden';
     cards[getVisibleCard()].style.display = 'none';
-    cards[cardIndex].style.animation = '.8s slideInFromRight forwards';
+    cards[cardIndex].style.animation = '.8s fadeSlider forwards';
     cards[cardIndex].style.visibility = "visible";
     cards[cardIndex].style.display = "block";
-
     updateIndicators();
 };
 
-updateIndicators = () => {
+updateIndicators = function updateIndicators() {
     var i;
+
     for (i = 0; i < indicators.length; i++) {
         if (indicators[i].classList.contains('active')) {
             indicators[i].classList.remove('active');
@@ -73,25 +66,27 @@ updateIndicators = () => {
     indicators[cardIndex].classList.add('active');
 };
 
-showHideButton = (button, type) => {
+showHideButton = function showHideButton(button, type) {
     switch (button) {
         case 'prev':
             managePrevButton(type);
             break;
+
         case 'next':
             manageNextButton(type);
             break;
     }
 };
 
-managePrevButton = (type) => {
-    let child = prevButton.children[0];
+managePrevButton = function managePrevButton(type) {
+    var child = prevButton.children[0];
 
     switch (type) {
         case 'hide':
             prevButton.style.animation = '.3s hideSlideButton forwards';
             child.style.visibility = 'hidden';
             break;
+
         case 'show':
             prevButton.style.animation = '.3s showSlideButton forwards';
             child.style.visibility = 'visible';
@@ -99,14 +94,15 @@ managePrevButton = (type) => {
     }
 };
 
-manageNextButton = (type) => {
-    let child = nextButton.children[0];
+manageNextButton = function manageNextButton(type) {
+    var child = nextButton.children[0];
 
     switch (type) {
         case 'hide':
             nextButton.style.animation = '.1s hideSlideButton forwards';
             child.style.visibility = 'hidden';
             break;
+
         case 'show':
             nextButton.style.animation = '.8s showSlideButton forwards';
             child.style.visibility = 'visible';
