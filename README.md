@@ -47,7 +47,7 @@
 
 ### <a id="#bot-start"></a> 💠 شروع کار
 
-<img src="https://covido.info/image/github/Start.gif" style="width: 100%; height: auto;"/>
+![Start bot](https://covido.info/image/github/Start-gif.gif)
 
 با ارسال دستور /start در ربات می توانید فعالیت خود را در ربات آغاز نمایید. همچنین با این دستور می توانید ربات را بروز کنید.
 
