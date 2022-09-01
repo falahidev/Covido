@@ -94,5 +94,6 @@
 
 - Email: info@covido.info
 - Telegram: t.me/CovidoSupport
+- Developer: t.me/iFalahiDEV
 
 </div>
