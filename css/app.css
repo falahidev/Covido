@@ -25,34 +25,6 @@ body {
     background: #FEFEFE;
 }
 
-.splash-screen {
-    height: 100%;
-    width: 100vw;
-    background: var(--primary-color);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    animation: fadeOut .8s forwards;
-    animation-delay: 3.5s;
-    z-index: 10000;
-    position: absolute;
-    overflow: none;
-}
-
-.splash-screen > img {
-    width: 130px;
-}
-
-.splash-screen > p {
-    color: var(--primary-color);
-    background: #fff;
-    margin-top: 80px;
-    padding: 6px 30px;
-    font-size: 12px;
-    border-radius: 60px;
-}
-
 .main-header {
     text-align: center;
     position: sticky;
