@@ -19,7 +19,7 @@
     width: 100%;
     height: 680px;
     flex: 30%;
-    background: url(../image/Covido.png);
+    background: url(../../assets/image/Covido.png);
     background-size: cover;
     border-radius: 15px;
     box-shadow: 0 0 6px rgba(102, 187, 106, 0.1);
