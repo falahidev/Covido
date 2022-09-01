@@ -47,7 +47,7 @@
 
 ### <a id="#bot-start"></a> 💠 شروع کار
 
-<div style="display: flex; justify-content: center">
+<div style="text-align: center;">
 
 ![Start bot](https://covido.info/image/github/Start-gif.gif)
 
