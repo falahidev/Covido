@@ -1,0 +1,270 @@
+
+.articles-container {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 100px;
+}
+
+.articles-container .container .title-bar {
+    width: 100%;
+}
+
+.articles-container .container .title-bar span {
+    float: left;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles-container .container .title-bar span::after {
+    font-family: 'Covido';
+    content: '\e903';
+    margin-right: 4px;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.articles-container .container .title-bar span a {
+    color: var(--primary-color);
+}
+
+.articles-container .container .title-bar h2 {
+    float: right;
+    font-size: 20px;
+}
+
+.articles-container .container .top-article {
+    display: flex;
+    justify-content: center;
+    padding: 15px 180px;
+    width: 100%;
+}
+
+.top-article .container {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.top-article .container img:hover {
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+.top-article .container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.top-article .container .content {
+    position: relative;
+    top: -102%;
+    width: 100%;
+    height: 300px;
+    background: #05140869;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.top-article .container .content h1, .top-article .container .content h1 a {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 800;
+}
+
+.top-article .container .content .line {
+    width: 7px;
+    height: 60%;
+    background: #E46D6D;
+    border-radius: 30px;
+    margin: 0px 20px;
+}
+
+.articles-container .container .articles {
+    display: flex;
+    justify-content: start;
+    flex-flow: row wrap;
+    padding: 10px 180px;
+}
+
+.articles .article {
+    width: 380px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    flex-basis: 48.5%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 5px;
+    border-radius: 10px;
+    flex: -1 0 49%;
+    position: relative;
+    padding: 15px;
+}
+
+.article .cover {
+    position: relative;
+}
+
+.article .cover img {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.article .content {
+    padding: 15px;
+}
+
+.article .content h3 a {
+    color: #000;
+    font-size: 18px;
+}
+
+.article .content p {
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+    margin-top: 10px;
+}
+
+.article .footer {
+    display: flex;
+    margin-top: 10px;
+    padding: 0px 15px;
+    align-items: center;
+}
+
+.footer .author img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.footer .author {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex: 47%;
+}
+
+.footer p a {
+    flex: 10%;
+    color: var(--primary-color);
+    background: #BBFFBE;
+    float: left;
+    font-size: 12px;
+    padding: 4px 31px;
+    border-radius: 2px;
+}
+
+.author h4 {
+    color: #8F8F8F;
+    font-weight: 300;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.other .btn-more {
+    color: #fff;
+    padding: 10px 48px;
+    outline: none;
+    background: var(--primary-color);
+    border: 0;
+    border-radius: 5px;
+    font-family: 'IRANYekan', serif;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .main-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-header .top-nav {
+        width: 100%;
+        margin: 12px 20px;
+        border-radius: 12px;
+        height: 76px !important;
+        padding: 0 8px !important;
+    }
+
+    .main-header .top-nav > .nav {
+        display: none;
+    }
+
+    .main-header .top-nav .buttons .button {
+        display: none;
+    }
+
+    .main-header .top-nav .logo {
+        flex: 60%;
+    }
+
+    .main-header .top-nav .hamburger-menu {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex: 20%;
+    }
+
+    .main-header .top-nav .hamburger-menu label {
+        padding: 8px 30px;
+    }
+
+    .main-header .top-nav .hamburger-menu label > svg {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+        margin-left: 18px;
+    }
+
+    .main-header .top-nav .buttons {
+        flex: 20%;
+    }
+
+    .articles-container {
+        padding: 10px 20px;
+    }
+
+    .articles-container .container .top-article {
+        padding: 15px 0px;
+    }
+
+    .top-article .container, .top-article .container .content {
+        height: 250px;
+    }
+
+    .top-article .container .content {
+        padding: 12px;
+        top: -103%;
+    }
+
+    .top-article .container .content h1, .top-article .container .content h1 a {
+        font-size: 25px;
+    }
+
+    .articles-container .container .articles {
+        padding: 0px;
+        flex-flow: column wrap;
+    }
+
+    .articles .article {
+        width: 100%;
+    }
+}
