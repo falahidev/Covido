@@ -48,9 +48,7 @@
 
 <div style="text-align: center;">
 
-<video autoplay loop muted style="width: 100%; height: auto;">
-  <source src="https://covido.info/image/github/Start.mp4" type="video/mp4">
-</video>
+<img src="https://covido.info/image/github/Start.gif" align="center"/>
 
 </div>
 
@@ -60,9 +58,7 @@
 
 <div style="text-align: center;">
 
-<video autoplay loop muted style="width: 100%; height: auto;">
-  <source src="https://covido.info/image/github/CovidoStatus.mp4" type="video/mp4">
-</video>
+<img src="https://covido.info/image/github/CovidoStatus.gif" align="center"/>
 
 </div>
 
@@ -72,9 +68,7 @@
 
 <div style="text-align: center;">
 
-<video autoplay loop muted style="width: 100%; height: auto;">
-  <source src="https://covido.info/image/github/Contact.mp4" type="video/mp4">
-</video>
+<img src="https://covido.info/image/github/Contact.gif" align="center"/>
 
 </div>
 
@@ -95,7 +89,7 @@
 از آنجایی که کویدو اپن سورس است در صورت مشاهده باگ یا پیشنهاد خاصی از طریق راه های ارتباطی زیر با کویدو در تمارس باشید. همچنین با شرکت در توسعه این پروژه به تیم ما کمک کنید.
 
 - Email: info@covido.info
-- Telegram: t.me/CovidoSupport
-- Developer: t.me/iFalahiDEV
+- Telegram: [t.me/CovidoSupport](https://t.me/CovidoSupport)
+- Developer: [t.me/iFalahiDEV](https://t.me/iFalahiDEV)
 
 </div>
