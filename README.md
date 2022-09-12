@@ -48,7 +48,9 @@
 
 <div style="text-align: center;">
 
-<img src="https://covido.info/image/github/Start-gif.gif" align="center"/>
+<video autoplay loop muted style="width: 100%; height: auto;">
+  <source src="https://covido.info/image/github/Start.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -58,7 +60,9 @@
 
 <div style="text-align: center;">
 
-<img src="https://covido.info/image/github/CovidoStatus-gif.gif" align="center"/>
+<video autoplay loop muted style="width: 100%; height: auto;">
+  <source src="https://covido.info/image/github/CovidoStatus.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -68,15 +72,13 @@
 
 <div style="text-align: center;">
 
-<img src="https://covido.info/image/github/Contact-gif.gif" align="center"/>
+<video autoplay loop muted style="width: 100%; height: auto;">
+  <source src="https://covido.info/image/github/Contact.mp4" type="video/mp4">
+</video>
 
 </div>
 
 با ارسال دستور « ارتباط با ما » ارتباط شما با کارشناسان و پشتیبان کویدو آغاز می شود. پس از ارسال این دستور باید منتظر تایید درخواست ارتباط خود توسط پشتیبان باشید. پس از تایید درخواست پیام خود را ارسال نمایید.
-
-#### 🚀 خبر ویژه!
-
-این ربات اپن سورس می باشد و در این ریپازیتوری می توانید به آن دسترسی داشته باشید.😉
 
 ## <a id="social"></a> 📱 سوشال مدیا
 
